@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+*.pyo
+.git/
+.gitignore
+.ipynb_checkpoints/
+*.ipynb
+.venv/
+venv/
+*.log
+.DS_Store
+
+
+import os
+os.makedirs(".github/workflows", exist_ok=True)
+
